@@ -1,0 +1,12 @@
+execute if score @s rh_layout matches 1 run function rh/ritual_next1
+execute if score @s rh_layout matches 2 run function rh/ritual_next2
+execute if score @s rh_layout matches 3 run function rh/ritual_next3
+execute if score @s rh_layout matches 4 run function rh/ritual_next4
+execute if score @s rh_layout matches 5 run function rh/ritual_next5
+execute if score @s rh_layout matches 6 run function rh/ritual_next6
+execute if score @s rh_layout matches 7 run function rh/ritual_next7
+execute if score @s rh_layout matches 8 run function rh/ritual_next8
+execute if score @s rh_layout matches 9 run function rh/ritual_next9
+execute if score @s rh_layout matches 10 run function rh/ritual_next10
+execute if score @s rh_layout matches 11 run function rh/ritual_next11
+execute if score @s rh_layout matches 12 run function rh/ritual_next12

@@ -1,0 +1,278 @@
+{
+  "version": "0.3",
+  "checks": [
+    "fill volume limits",
+    "all function references exist",
+    "25 rooms reachable before and after closure, all 12 layouts",
+    "12 unique maze topologies",
+    "no-repeat randomization exhaustively checked",
+    "36 layout/mission objective progressions checked"
+  ],
+  "layouts": [
+    {
+      "layout": 1,
+      "seals": [
+        [
+          42,
+          24
+        ],
+        [
+          24,
+          42
+        ],
+        [
+          6,
+          33
+        ]
+      ],
+      "closedPassage": [
+        15,
+        10
+      ],
+      "longestRouteInRooms": 14
+    },
+    {
+      "layout": 2,
+      "seals": [
+        [
+          33,
+          42
+        ],
+        [
+          42,
+          24
+        ],
+        [
+          6,
+          42
+        ]
+      ],
+      "closedPassage": [
+        19,
+        15
+      ],
+      "longestRouteInRooms": 11
+    },
+    {
+      "layout": 3,
+      "seals": [
+        [
+          33,
+          33
+        ],
+        [
+          15,
+          42
+        ],
+        [
+          6,
+          15
+        ]
+      ],
+      "closedPassage": [
+        15,
+        19
+      ],
+      "longestRouteInRooms": 10
+    },
+    {
+      "layout": 4,
+      "seals": [
+        [
+          24,
+          6
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          42,
+          15
+        ]
+      ],
+      "closedPassage": [
+        6,
+        28
+      ],
+      "longestRouteInRooms": 14
+    },
+    {
+      "layout": 5,
+      "seals": [
+        [
+          42,
+          6
+        ],
+        [
+          24,
+          42
+        ],
+        [
+          6,
+          15
+        ]
+      ],
+      "closedPassage": [
+        19,
+        24
+      ],
+      "longestRouteInRooms": 8
+    },
+    {
+      "layout": 6,
+      "seals": [
+        [
+          42,
+          6
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          33,
+          24
+        ]
+      ],
+      "closedPassage": [
+        33,
+        28
+      ],
+      "longestRouteInRooms": 16
+    },
+    {
+      "layout": 7,
+      "seals": [
+        [
+          6,
+          15
+        ],
+        [
+          6,
+          42
+        ],
+        [
+          24,
+          33
+        ]
+      ],
+      "closedPassage": [
+        28,
+        33
+      ],
+      "longestRouteInRooms": 19
+    },
+    {
+      "layout": 8,
+      "seals": [
+        [
+          15,
+          42
+        ],
+        [
+          6,
+          24
+        ],
+        [
+          42,
+          24
+        ]
+      ],
+      "closedPassage": [
+        28,
+        33
+      ],
+      "longestRouteInRooms": 15
+    },
+    {
+      "layout": 9,
+      "seals": [
+        [
+          42,
+          24
+        ],
+        [
+          6,
+          42
+        ],
+        [
+          33,
+          42
+        ]
+      ],
+      "closedPassage": [
+        28,
+        42
+      ],
+      "longestRouteInRooms": 10
+    },
+    {
+      "layout": 10,
+      "seals": [
+        [
+          42,
+          6
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          15,
+          33
+        ]
+      ],
+      "closedPassage": [
+        24,
+        10
+      ],
+      "longestRouteInRooms": 10
+    },
+    {
+      "layout": 11,
+      "seals": [
+        [
+          42,
+          6
+        ],
+        [
+          33,
+          24
+        ],
+        [
+          42,
+          42
+        ]
+      ],
+      "closedPassage": [
+        10,
+        15
+      ],
+      "longestRouteInRooms": 16
+    },
+    {
+      "layout": 12,
+      "seals": [
+        [
+          42,
+          33
+        ],
+        [
+          42,
+          6
+        ],
+        [
+          6,
+          42
+        ]
+      ],
+      "closedPassage": [
+        28,
+        15
+      ],
+      "longestRouteInRooms": 11
+    }
+  ],
+  "inGameTested": false
+}

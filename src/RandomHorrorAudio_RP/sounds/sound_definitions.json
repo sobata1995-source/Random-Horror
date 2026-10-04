@@ -1,0 +1,45 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "rh.music.stage0": {
+      "category": "music",
+      "sounds": [
+        {
+          "name": "sounds/random_horror/stage0",
+          "stream": true,
+          "volume": 1
+        }
+      ]
+    },
+    "rh.music.stage1": {
+      "category": "music",
+      "sounds": [
+        {
+          "name": "sounds/random_horror/stage1",
+          "stream": true,
+          "volume": 1
+        }
+      ]
+    },
+    "rh.music.stage2": {
+      "category": "music",
+      "sounds": [
+        {
+          "name": "sounds/random_horror/stage2",
+          "stream": true,
+          "volume": 1
+        }
+      ]
+    },
+    "rh.music.stage3": {
+      "category": "music",
+      "sounds": [
+        {
+          "name": "sounds/random_horror/stage3",
+          "stream": true,
+          "volume": 1
+        }
+      ]
+    }
+  }
+}

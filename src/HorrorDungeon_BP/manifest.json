@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Horror Dungeon: Three Seals",
+    "description": "Single-player horror dungeon prototype v0.1. Run /function hd/start in a NEW test world.",
+    "uuid": "2c123632-6139-4260-a706-5ca85fc71ba9",
+    "version": [
+      0,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "d8075cab-74a9-46a0-805a-958fb92efdd6",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    }
+  ]
+}

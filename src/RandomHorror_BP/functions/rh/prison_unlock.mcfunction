@@ -1,0 +1,12 @@
+execute if score @s rh_layout matches 1 run function rh/prison_unlock1
+execute if score @s rh_layout matches 2 run function rh/prison_unlock2
+execute if score @s rh_layout matches 3 run function rh/prison_unlock3
+execute if score @s rh_layout matches 4 run function rh/prison_unlock4
+execute if score @s rh_layout matches 5 run function rh/prison_unlock5
+execute if score @s rh_layout matches 6 run function rh/prison_unlock6
+execute if score @s rh_layout matches 7 run function rh/prison_unlock7
+execute if score @s rh_layout matches 8 run function rh/prison_unlock8
+execute if score @s rh_layout matches 9 run function rh/prison_unlock9
+execute if score @s rh_layout matches 10 run function rh/prison_unlock10
+execute if score @s rh_layout matches 11 run function rh/prison_unlock11
+execute if score @s rh_layout matches 12 run function rh/prison_unlock12

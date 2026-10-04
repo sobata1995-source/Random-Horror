@@ -1,0 +1,127 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.rh.shadow",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 3,
+        "visible_bounds_offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4,
+                24,
+                -4
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -4,
+                10,
+                -2
+              ],
+              "size": [
+                8,
+                14,
+                4
+              ],
+              "uv": [
+                0,
+                16
+              ]
+            },
+            {
+              "origin": [
+                -7,
+                8,
+                -2
+              ],
+              "size": [
+                3,
+                16,
+                4
+              ],
+              "uv": [
+                24,
+                16
+              ]
+            },
+            {
+              "origin": [
+                4,
+                8,
+                -2
+              ],
+              "size": [
+                3,
+                16,
+                4
+              ],
+              "uv": [
+                24,
+                16
+              ]
+            },
+            {
+              "origin": [
+                -4,
+                0,
+                -2
+              ],
+              "size": [
+                3,
+                10,
+                4
+              ],
+              "uv": [
+                40,
+                16
+              ]
+            },
+            {
+              "origin": [
+                1,
+                0,
+                -2
+              ],
+              "size": [
+                3,
+                10,
+                4
+              ],
+              "uv": [
+                40,
+                16
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

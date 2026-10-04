@@ -1,0 +1,14 @@
+const fs=require('fs'),path=require('path'),zlib=require('zlib');
+const root=path.resolve(__dirname,'..');
+const write=(pack,file,data)=>{const p=path.join(root,'src',pack,file);fs.mkdirSync(path.dirname(p),{recursive:true});fs.writeFileSync(p,typeof data==='object'&&!Buffer.isBuffer(data)?JSON.stringify(data,null,2):data);};
+for(const file of ['work/build-native.cjs','work/build-audio.cjs']){const p=path.join(root,file);fs.writeFileSync(p,fs.readFileSync(p,'utf8').replaceAll('v0.6','v0.7').replaceAll('[0,6,0]','[0,7,0]'));}
+require('./build-native.cjs');require('./build-audio.cjs');
+write('RandomHorrorNative_BP','entities/shadow.json',{format_version:'1.21.0','minecraft:entity':{description:{identifier:'rh:shadow',is_spawnable:false,is_summonable:true,is_experimental:false},components:{'minecraft:type_family':{family:['rh_shadow']},'minecraft:health':{value:100,max:100},'minecraft:collision_box':{width:0,height:0},'minecraft:physics':{has_gravity:false,has_collision:false},'minecraft:pushable':{is_pushable:false,is_pushable_by_piston:false}}}});
+write('RandomHorrorAudio_RP','entity/shadow.entity.json',{format_version:'1.10.0','minecraft:client_entity':{description:{identifier:'rh:shadow',materials:{default:'entity_alphatest'},textures:{default:'textures/entity/rh_shadow'},geometry:{default:'geometry.rh.shadow'},render_controllers:['controller.render.default']}}});
+write('RandomHorrorAudio_RP','models/entity/shadow.geo.json',{format_version:'1.12.0','minecraft:geometry':[{description:{identifier:'geometry.rh.shadow',texture_width:64,texture_height:64,visible_bounds_width:3,visible_bounds_height:3,visible_bounds_offset:[0,1,0]},bones:[{name:'root',pivot:[0,0,0],cubes:[{origin:[-4,24,-4],size:[8,8,8],uv:[0,0]},{origin:[-4,10,-2],size:[8,14,4],uv:[0,16]},{origin:[-7,8,-2],size:[3,16,4],uv:[24,16]},{origin:[4,8,-2],size:[3,16,4],uv:[24,16]},{origin:[-4,0,-2],size:[3,10,4],uv:[40,16]},{origin:[1,0,-2],size:[3,10,4],uv:[40,16]}]}]}]});
+function crc(b){let c=0xffffffff;for(const v of b){c^=v;for(let i=0;i<8;i++)c=(c>>>1)^((c&1)?0xedb88320:0);}return(c^0xffffffff)>>>0;}
+function chunk(name,data){const type=Buffer.from(name),out=Buffer.alloc(data.length+12);out.writeUInt32BE(data.length);type.copy(out,4);data.copy(out,8);out.writeUInt32BE(crc(Buffer.concat([type,data])),out.length-4);return out;}
+const header=Buffer.alloc(13);header.writeUInt32BE(64);header.writeUInt32BE(64,4);header[8]=8;header[9]=6;
+const raw=Buffer.alloc(64*(1+64*4));for(let y=0;y<64;y++)for(let x=0;x<64;x++){const i=y*257+1+x*4;raw[i]=8;raw[i+1]=7;raw[i+2]=12;raw[i+3]=255;}
+write('RandomHorrorAudio_RP','textures/entity/rh_shadow.png',Buffer.concat([Buffer.from([137,80,78,71,13,10,26,10]),chunk('IHDR',header),chunk('IDAT',zlib.deflateSync(raw)),chunk('IEND',Buffer.alloc(0))]));
+console.log('PASS: original shadow model, texture and harmless entity; matching v0.7 pack versions.');

@@ -1,0 +1,1 @@
+Original procedural audio composed and synthesized for Random Horror. No external recordings or samples used. Source: work/build-audio.cjs.

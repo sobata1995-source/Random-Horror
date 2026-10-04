@@ -1,0 +1,9 @@
+PROJECT.md
+outputs/*
+!outputs/RandomHorror-v0.3-validation.json
+!outputs/RandomHorror-v0.9.0-Halloween-Beta.mcaddon
+node_modules/
+*.log
+*.tmp
+.env
+.env.*

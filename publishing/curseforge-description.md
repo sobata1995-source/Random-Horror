@@ -1,7 +1,5 @@
 # Random Horror
 
-![Random Horror Halloween promotional artwork](publishing/assets/random-horror-halloween-cover.png)
-
 ### The dungeon is quiet. That is how it starts.
 
 You step into the dark. A pumpkin burns at the corner of a narrow passage. Somewhere beyond it, something is waiting.
@@ -60,10 +58,3 @@ Random Horror is free to download and play. Support is optional and helps fund d
 If something goes wrong, include the addon version, scenario and Content Log error in your report.
 
 *The pumpkins can light the corridor. They cannot tell you what is behind you.*
-
-
-## Build and validation
-
-Requires Node.js. Run `node work/build-scares.cjs` to build the current behavior/resource packs, then `node work/test-native.cjs` to run the simulated gameplay checks. The importable addon is attached to GitHub Releases.
-
-Cover artwork is a promotional illustration generated with imagegen, not an in-game screenshot.
