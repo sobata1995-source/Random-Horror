@@ -44,13 +44,13 @@ Headphones recommended. Sudden sounds and jumpscares are part of the experience.
 
 Select the menu compass and sneak to open the menu. On desktop, right-click the diary books to collect pages. Finish your three objectives, then return to the **gold block at the dungeon entrance**.
 
-**Minecraft Bedrock only. Current beta supports one player.** Minimum pack engine version: **1.21.90**. In-game testing has been done on Minecraft for Windows; mobile, console and Realms compatibility have not been verified. Import and activation are separate steps.
+**Minecraft Bedrock only. Current beta supports one player.** Minimum pack engine version: **1.21.90**. In-game testing has been done on Minecraft for Windows 26.52; mobile, console and Realms compatibility have not been verified. Import and activation are separate steps.
 
 ## Support the next nightmare
 
 Random Horror is free to download and play. Support is optional and helps fund development and updates.
 
-🧡 **[Support on Patreon](https://www.patreon.com/c/DenisAleksandrov/membership)**  
+🧡 **[Support on Patreon](https://www.patreon.com/c/denisaleksandrov/membership)**  
 💙 **[Leave a tip via Revolut](https://revolut.me/denisar2z)**  
 💬 **[Join Razer Dev Studio on Discord](https://discord.gg/Pr5eMAUqt)**  
 🛠️ **[GitHub project and bug reports](https://github.com/sobata1995-source/Random-Horror)**
