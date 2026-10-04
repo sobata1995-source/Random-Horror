@@ -8,7 +8,7 @@ Three objectives stand between you and the exit. Each one makes the music darker
 
 **Find what you came for. Remember the way back. Reach the gold block before it reaches you.**
 
-## 🎃 Halloween Edition — v0.9.0 Beta
+## 🎃 Halloween Edition — v0.9.0
 
 The familiar dungeon lights have become glowing jack-o'-lanterns, in the same locations. The corridors, objectives and pursuit remain intact. Halloween is a good excuse to take one more wrong turn.
 
@@ -36,7 +36,7 @@ Headphones recommended. Sudden sounds and jumpscares are part of the experience.
 
 ## Install and enter
 
-1. Download **RandomHorror-v0.9.0-Halloween-Beta.mcaddon** and open it with Minecraft Bedrock.
+1. Download **RandomHorror-v0.9.0-Halloween.mcaddon** and open it with Minecraft Bedrock.
 2. Create a **new, dedicated singleplayer world**. This addon builds its lobby and dungeon in the Overworld and changes world settings; use a world made for this experience.
 3. Activate both included packs: the **Behavior Pack** and **Resource Pack**, version **0.9.0**.
 4. Use a non-Peaceful difficulty. Cheats can remain **OFF**; no setup commands are needed.
@@ -44,7 +44,7 @@ Headphones recommended. Sudden sounds and jumpscares are part of the experience.
 
 Select the menu compass and sneak to open the menu. On desktop, right-click the diary books to collect pages. Finish your three objectives, then return to the **gold block at the dungeon entrance**.
 
-**Minecraft Bedrock only. Current beta supports one player.** Minimum pack engine version: **1.21.90**. In-game testing has been done on Minecraft for Windows 26.52; mobile, console and Realms compatibility have not been verified. Import and activation are separate steps.
+**Minecraft Bedrock only. Current release supports one player.** Minimum pack engine version: **1.21.90**. In-game testing has been done on Minecraft for Windows 26.52; mobile, console and Realms compatibility have not been verified. Import and activation are separate steps.
 
 ## Support the next nightmare
 
