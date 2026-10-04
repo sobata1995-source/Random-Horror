@@ -50,6 +50,17 @@ Select the menu compass and sneak to open the menu. On desktop, right-click the 
 
 **Minecraft Bedrock only. Current release supports one player.** Minimum pack engine version: **1.21.90**. In-game testing has been done on Minecraft for Windows 26.52; mobile, console and Realms compatibility have not been verified. Import and activation are separate steps.
 
+## In-game screenshots
+
+### Starting room
+![Starting room with Halloween pumpkins](publishing/assets/screenshots/starting-point.png)
+
+### Dungeon entrance
+![Dungeon entrance and gold escape block](publishing/assets/screenshots/dungeon.png)
+
+### The Lost Prisoner
+![Finding the captive in The Lost Prisoner scenario](publishing/assets/screenshots/captive.png)
+
 ## Support the next nightmare
 
 Random Horror is free to download and play. Support is optional and helps fund development and updates.
